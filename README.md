@@ -1,4 +1,4 @@
-# Mastering-Exploratory-Data-Analysis-A-Project-Based-Approach-on-Bank-Loan-Risk-Analysis-Data-Using-Light-Gradient-Boosting-Machine-Classifier
+# Mastering-Exploratory-Data-Analysis-A-Project-Based-Approach-Using-Bank-Loan-Risk-Analysis-Data
 # **Initially**
 
 Loan-providing companies find it hard to give loans to people due to their insufficient or nonexistent credit history. Because of that, some consumers use it as their advantage by becoming a defaulter. EDA has been used to analyse the patterns present in the data. This will ensure that the applicants capable of repaying the loan are not rejected.
