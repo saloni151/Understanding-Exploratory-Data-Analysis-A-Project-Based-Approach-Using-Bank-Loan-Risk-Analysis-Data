@@ -1,7 +1,7 @@
-# Mastering-Exploratory-Data-Analysis-A-Project-Based-Approach-Using-Bank-Loan-Risk-Analysis-Data
+# Mastering-Exploratory-Data-Analysis-A-Project-Based-Approach-on-Bank-Loan-Risk-Analysis-Data-Using-Light-Gradient-Boosting-Machine-Classifier
 # **Initially**
 
-Loan-providing companies find it hard to give loans to people due to their insufficient or nonexistent credit history. Because of that, some consumers use it as their advantage by becoming a defaulter. I have used EDA to analyse the patterns present in the data. This will ensure that the applicants capable of repaying the loan are not rejected.
+Loan-providing companies find it hard to give loans to people due to their insufficient or nonexistent credit history. Because of that, some consumers use it as their advantage by becoming a defaulter. EDA has been used to analyse the patterns present in the data. This will ensure that the applicants capable of repaying the loan are not rejected.
 
 When the company receives a loan application, it has to decide on loan approval based on the applicant’s profile. Two types of risks are associated with the bank’s decision:
 
@@ -17,7 +17,7 @@ When a client applies for a loan, four types of decisions can be made by the cli
 
   Approved: The Company has approved the loan Application
   
-  Cancelled: The client cancelled the application sometime during approval. Either the client changed her/his mind about the loan, or in some cases, due                          to a high risk of the client, they received worse pricing, which they did not want.
+  Cancelled: The client cancelled the application sometime during approval. Either the client changed her/his mind about the loan, or in some cases, due to a high risk of the client, they received worse pricing, which they did not want.
   
   Refused: The company had rejected the loan (because the client does not meet their requirements etc.).
   
