@@ -23,21 +23,22 @@ When a client applies for a loan, four types of decisions can be made by the cli
 In this analysis, EDA has been implemented to understand how consumer attributes and loan attributes influence the tendency of default.
 
 # **Problem Statement**
-How to identify the key features and hidden patterns among the features that lead to default.
-Checking the missing values.
-Checking the Outliers.
-How to deal with Imbalanced datasets.
-How to identify whether the client who applied for a loan belongs to a defaulter or non- non-defaulter.
-Choosing the right evaluation metrics for the evaluation of our proposed model was another area of concern.
+1.  How to identify the key features and hidden patterns among the features that lead to default.
+2.  Checking the missing values.
+3.  Checking the Outliers.
+4.  How to deal with Imbalanced datasets.
+5.  How to identify whether the client who applied for a loan belongs to a defaulter or non- non-defaulter.
+6.  Choosing the right evaluation metrics for the evaluation of our proposed model was another area of concern.
 
 
 # **Objective**
-To identify the key features and hidden patterns among the features that lead to default, univariate and bivariate analysis have been done.
-To overcome the problem of missing values, the  mean, median, and mode imputation techniques have been used.
-To deal with Outliers Boxplot and binning method have been used.
-To deal with Imbalanced datasets SMOTE technique has been used.
-To identify whether the client who applied for a loan belongs to a defaulter or non- non-defaulter, the Light Gradient Boosting Machine classification (LGBM classifier) algorithm has been used.
-To evaluate the model F1 score has been used.
+1.  To identify the key features and hidden patterns among the features that lead to default, univariate and bivariate analysis have been done.
+2.  To overcome the problem of missing values, the  mean, median, and mode imputation techniques have been used.
+3.  To deal with Outliers Boxplot and binning method have been used.
+4.  To deal with Imbalanced datasets SMOTE technique has been used.
+5.  To identify whether the client who applied for a loan belongs to a defaulter or non- non-defaulter, the Light Gradient Boosting Machine             
+    classification (LGBM classifier) algorithm has been used.
+6.  To evaluate the model F1 score has been used.
 
 # **Final Conclusion/Insights**
 
@@ -64,4 +65,5 @@ To evaluate the model F1 score has been used.
 3. Offers prev. Unused and high-income customers should be avoided.
 
 **Result**
+
 The prediction model has achieved a 0.96 F1 score.
