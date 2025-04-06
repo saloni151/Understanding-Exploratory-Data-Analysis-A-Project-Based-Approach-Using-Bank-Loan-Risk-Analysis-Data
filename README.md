@@ -1,4 +1,4 @@
-# Mastering-Exploratory-Data-Analysis-A-Project-Based-Approach-Using-Bank-Loan-Risk-Analysis-Data
+# Understanding-Exploratory-Data-Analysis-A-Project-Based-Approach-Using-Bank-Loan-Risk-Analysis-Data
 **Abstract**
 
 Financial institutions find it challenging to grant loans to clients/customers due to their poor or the lack of an established credit history. Hence, some clients/customers take advantage of this and become defaulters. Exploratory Data Analysis (EDA) has been applied to analyse patterns present in the data, which will help identify applicants who are capable of repaying the loan and should not be rejected.
