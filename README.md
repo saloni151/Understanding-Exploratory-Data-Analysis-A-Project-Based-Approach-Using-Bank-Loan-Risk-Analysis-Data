@@ -45,8 +45,8 @@ Exploratory Data Analysis (EDA) has been conducted to examine how the attributes
     classification (LGBM classifier) algorithm has been used.
 6.  To evaluate the model F1 score has been used.
 
-7.
-8.   **Analysis Observations**
+  
+    **Analysis Observations**
 
 I. **Attribute relevance analysis or feature importance analysis on the Application dataset:**
 
