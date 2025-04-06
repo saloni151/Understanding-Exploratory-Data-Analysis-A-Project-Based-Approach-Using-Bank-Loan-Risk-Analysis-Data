@@ -43,6 +43,64 @@ In this analysis, EDA has been implemented to understand how consumer attributes
     classification (LGBM classifier) algorithm has been used.
 6.  To evaluate the model F1 score has been used.
 
+7.
+8.   **Analysis Observations**
+
+I. **Attribute relevance analysis or feature importance analysis on the Application dataset:**
+
+**1.NAME_CONTRACT_TYPE**
+* Most of the customers have taken a cash loan.
+* Customers who have taken a cash loan are less likely to be defaulters.
+
+**2. CODE_GENDER**(Generally, we do not consider columns related to gender for data analysis because this might lead to discrimination)
+* Most of the time, the loan has been taken out by female customers
+* The default rate of female customers is approximately 7%, which is safer and lower than the default rate of male customers.
+
+**3. NAME_TYPE_SUITE**
+* Unaccompanied customers have taken the loan most of the time, and the default rate is approximately 8.5% or 9% which is still fine.
+
+**4. NAME_INCOME_TYPE**
+* The safest segments or groups to grant loans to are working professionals, commercial associates, and pensioners. Because most of the loans are granted to these income-type customers and their default rate is also low.
+
+**5. NAME_EDUCATION_TYPE**
+* The higher segment is the safest customers to grant the loan with the default rate less than 5%.
+  
+**6. NAME_FAMILY_STATUS**
+* Married people are safe to grant loans where the default rate is 8%.
+  
+**7. NAME_HOUSING_TYPE**
+* Customers who have a house or apartment are safe to grant a loan where the default rate is approximately 8%.
+
+**8. OCCUPATION_TYPE**
+* Low-skilled laborers and Drivers are the highest defaulters.
+* Accountants are less likely to default.
+* Core staff, Managers, and laborers are safe to grant loans where the default rate is less than or equal to 7.5 to 10%.
+  
+**9. ORGANIZATION_TYPE**
+* Transport type 3 is are highest defaulters.
+* Others, Business Entity Type 3, Self Employed, are safe to grant loans with a default rate around 10%.
+  
+**II. Univariate Numeric Variable Analysis**
+
+* Most of the loans were granted for the AMT_GOODS_PRICE ranging between 0 and to 1million.
+* Most of the loans were granted for the credit amount (AMT_CREDIT), ranging between 0 to 1 million.
+* Most of the customers are paying an annuity of 0 to 50k.
+* Most of the customers have an income between 0 to 1 million.
+  
+**III. Bivariate Numeric Variable Analysis**
+
+* AMT_GOODS_PRICE and AMT_CREDIT are linearly correlated, if AMT_CREDIT increases, the defaulters decrease.
+* Clients having income less than or equal to 1 million are more likely to take out loans, of whom are taking loans of less than 1.5 million could turn out to be defaulters. We can target income below 1 million and a loan amount greater than 1.5 million.
+* Clients having children 1 to fewer than 5 are safer to give the loan.
+* Clients who can pay the annuity of 100k are more likely to get the loan, and that’s up to less than 2 million(safer segment).
+  
+**IV. Analysis on the Merged Data**
+
+* For the repairing purpose, customers had applied mostly previously and the same purpose has the most number of cancellations.
+* Most of the application which were previously either canceled or refused 80%-90% of them are repair in the current data.
+* The offers that were unused previously now have the maximum number of defaulters despite having high-income band customers.
+
+
 # **Final Conclusion/Insights**
 
 **Bank should target the customers**
