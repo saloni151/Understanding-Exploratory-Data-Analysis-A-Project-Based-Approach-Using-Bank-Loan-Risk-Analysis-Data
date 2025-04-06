@@ -21,7 +21,7 @@ When a borrower submits a loan application, four kinds of decisions are generall
 
 * Cancelled: The client withdrew the application during the approval process — either due to a change of mind or, in some cases, because unfavorable loan terms were offered owing to the client’s high-risk profile.
 
-* Refused: The company rejected the loan application, typically because the applicant did not meet the eligibility criteria or other requirements.
+* Refused: The financial institution rejected the loan application, typically because the applicant did not meet the eligibility criteria or other requirements.
 
 * Unused Offer: The client chose not to proceed with the loan, canceling it at a later stage in the process.
 
