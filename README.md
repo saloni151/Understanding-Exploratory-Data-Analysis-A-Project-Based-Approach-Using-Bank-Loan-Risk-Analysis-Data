@@ -1,29 +1,31 @@
 # Mastering-Exploratory-Data-Analysis-A-Project-Based-Approach-Using-Bank-Loan-Risk-Analysis-Data
-# **Introduction**
+**Abstract**
 
-Loan-providing companies find it hard to give loans to people due to their insufficient or nonexistent credit history. Because of that, some consumers use it as their advantage by becoming a defaulter. EDA has been used to analyse the patterns present in the data. This will ensure that the applicants capable of repaying the loan are not rejected.
+Financial institutions find it challenging to grant loans to clients/customers due to their poor or the lack of an established credit history. Hence, some clients/customers take advantage of this and become defaulters. Exploratory Data Analysis (EDA) has been applied to analyse patterns present in the data, which will help identify applicants who are capable of repaying the loan and should not be rejected.
 
-When the company receives a loan application, it must decide on approval based on the applicant’s profile. Two types of risks are associated with the bank’s decision:
+Whenever the financial institution gets a loan request, the decision to grant or reject the request has to be made based on the applicant’s credit profile. There are two types of risks linked to the financial institution’s decision:
 
-  1. If the applicant is likely to repay the loan, then not approving the loan results in a loss of business to the company.
-  2. If the applicant is not likely to repay the loan, i.e., they are likely to default, then approving the loan may lead to a financial loss for the company.
+1. If the applicant is likely to remit the loan amount, then not granting the loan may lead to business loss to the financial institutions.
 
-The data used for this analysis contains information about the loan application at the time of applying for the loan. It contains two types of scenarios:
+2. If the applicant is not likely to remit the loan amount, i.e., he or she is likely to default, then granting the loan may lead to a financial loss for the financial institutions.
 
-  1. The client with payment difficulties: he/she had late payment for more than X days on at least one of the first Y instalments of the loan in our sample,
-  2. All other cases: All other cases when the payment is paid on time.
-     
-When a client applies for a loan, four types of decisions can be made by the client/company.:
+The data set used for this Exploratory Data Analysis includes details related to loan applications at the time they were submitted. It covers two types of scenarios:
 
-  Approved: The Company has approved the loan Application
-  
-  Cancelled: The client cancelled the application sometime during approval. Either the client changed her/his mind about the loan, or in some cases, due to a high risk of the client, they received worse pricing, which they did not want.
-  
-  Refused: The company had rejected the loan (because the client does not meet their requirements etc.).
-  
-  Unused offer: The Loan has been cancelled by the client, but at different stages of the process.
+* Clients facing payment issues: These are applicants who delayed payment by more than X days on at least one of the first Y installments of the loan in the dataset.
 
-In this analysis, EDA has been implemented to understand how consumer attributes and loan attributes influence the tendency of default.
+* Clients with timely payments: This includes all other cases where the loan payments were made on time.
+
+When a borrower submits a loan application, four kinds of decisions are generally made by either the client or the financial institution:
+
+* Approved: The loan application has been accepted and approved by the company.
+
+* Cancelled: The client withdrew the application during the approval process — either due to a change of mind or, in some cases, because unfavorable loan terms were offered owing to the client’s high-risk profile.
+
+* Refused: The company rejected the loan application, typically because the applicant did not meet the eligibility criteria or other requirements.
+
+* Unused Offer: The client chose not to proceed with the loan, canceling it at a later stage in the process.
+
+Exploratory Data Analysis (EDA) has been conducted to examine how the attributes in the bank loan risk analysis data set affect the likelihood of loan default.
 
 # **Problem Statement**
 1.  How to identify the key features and hidden patterns among the features that lead to default.
